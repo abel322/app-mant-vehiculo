@@ -2,6 +2,7 @@ import { getOrCreateVehicle } from '@/app/actions/vehicleActions';
 import { getReminders } from '@/app/actions/reminderActions';
 import RemindersClient from './RemindersClient';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 export default async function RemindersPage() {
