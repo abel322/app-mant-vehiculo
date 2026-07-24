@@ -12,6 +12,8 @@
     "prisma:push": "prisma db push"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "@prisma/adapter-libsql": "^7.9.0",
     "@prisma/client": "^5.10.0",
     "framer-motion": "^11.0.0",
     "lucide-react": "^0.344.0",
